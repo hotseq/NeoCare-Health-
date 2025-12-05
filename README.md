@@ -12,11 +12,11 @@ Aplicación orientada a:
 ---
 
 ## 1. Tecnologias utilizadas 
-- **Frontend: ** React + TypeScript + Vite
-- **Backend: ** FastAPI (Python)
-- ** Base de datos: ** PostgreSQL
+- **Frontend:** React + TypeScript + Vite
+- **Backend:** FastAPI (Python)
+- **Base de datos:** PostgreSQL
 - **Autenticación:** JWT  
-- **ORM : ** SQLAlchemy
+- **ORM :** SQLAlchemy
 - **Deploy futuro:**
   - Backend en Render
   - Frontend en Vercel

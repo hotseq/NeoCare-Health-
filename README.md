@@ -52,8 +52,21 @@ Tablas iniciales:
 ###Backend 
 
 ## 3.1.Como ejecutar el frontend 
+  - **Requisitos:**
+    - Tener Node.js instalado
+  - **1.Descargar el ZIP del proyecto y descomprimirlo**
+  - **2.Abrir carpeta en VS Code**
+  - **3.Instalar dependencias**
+    - npm install
+  -**4.Ejecutar servidor 
+  - Instalar React router: npm run dev
+  - **5.Abir enlace de que aparece en el terminal:**
+    - http://localhost:5173/.
 
 ## 3.2.Como ejecutar el backend 
+
+-
+
 
 ## 3.3.Como configurar PostgreSQL 
 

@@ -50,6 +50,17 @@ Tablas iniciales:
 ###Frontend 
 
 ###Backend 
+  **Aplicación**
+  `DEBUG=True`
+
+  **JWT/Verificacion**
+  `SECRET_KEY=secretkeynexeusomega123`
+  `ALGORITHM=HS256`
+  `ACCESS_TOKEN_EXPIRE_MINUTES=30`
+
+  **Base de datos**
+  `DATABASE_URL=postgresql+psycopg2://fastapi_user:Postgres123@localhost:5432/fastapi_db`
+
 
 ## 3.1.Como ejecutar el frontend 
   - **Requisitos:**
@@ -87,6 +98,18 @@ El proyecto usa PostgreSQL como base de datos para almacenar usuarios, tableros 
 Para que funcine, es necesario crear una base de datos y configurar la variable `DATABASE_URL`
 
   ### 1. Instalar PostgreSQL 
-    - La base de datos se instaló de forma local en el sistema Linux 
+    - La base de datos se instaló de forma local en el sistema Linux.
+    - Se creó un usuario especifico para el backend y una base de datos 
+    - La conexión se realiza mediante SQLAlchemy usando una URL de conexión definida en variables de entorno.
+  ### 2. Crear la base de datos 
+  -**En el terminal del sistema:**
+    - `sudo apt install postgresql postgresql-contrib`
+    - `sudo -u postgres psql`
+  -**En Python:**
+    - `CREATE DATABASE fastapi_db;´`
+    - `CREATE USER fastapi_user WITH PASSWORD 'Postgres123'; (en este caso)`
+    - `GRANT ALL PRIVILEGES ON DATABASE fastapi_db TO fastapi_user;`
+
+
 
 

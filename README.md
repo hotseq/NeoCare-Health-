@@ -53,7 +53,8 @@ Tablas iniciales:
 
 ## 3.1.Como ejecutar el frontend 
   - **Requisitos:**
-    - Tener Node.js instalado
+    - Tener Node.js v24.11.1
+      
   - **1.Descargar el ZIP del proyecto y descomprimirlo**
   - **2.Abrir carpeta en VS Code**
   - **3.Instalar dependencias**
@@ -65,8 +66,21 @@ Tablas iniciales:
 
 ## 3.2.Como ejecutar el backend 
 
--
-
+  - **Requisitos:**
+    - Tener Python v3.12.3
+    - Tener acceso a la una base de datos PostgreSQL
+    - Haber configurado las variables de entorno
+        
+  -**1.Descargar el ZIP del pryecto y descomprimirlo** 
+    - cd backend-fastapi
+  -**2.Crear un entorno virtual**
+    - python -m venv venv
+    - source venv/bin/activate
+  -**3.Instalar dependencias:** 
+    - pip install -r requirements.txt
+  -**4.Lanzar el servidor de la FastAPI:**
+    - uvicorn app.main:app --reload
+    - Este quedará disponible en http://localhost:8000
 
 ## 3.3.Como configurar PostgreSQL 
 

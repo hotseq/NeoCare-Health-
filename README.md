@@ -83,6 +83,10 @@ Tablas iniciales:
     - Este quedará disponible en http://localhost:8000
 
 ## 3.3.Como configurar PostgreSQL 
+El proyecto usa PostgreSQL como base de datos para almacenar usuarios, tableros y listas.
+Para que funcine, es necesario crear una base de datos y configurar la variable `DATABASE_URL`
 
+  ### 1. Instalar PostgreSQL 
+    - La base de datos se instaló de forma local en el sistema Linux 
 
 

@@ -71,14 +71,14 @@ Tablas iniciales:
     - Tener acceso a la una base de datos PostgreSQL
     - Haber configurado las variables de entorno
         
-  -**1.Descargar el ZIP del pryecto y descomprimirlo** 
+  - **1.Descargar el ZIP del pryecto y descomprimirlo** 
     - cd backend-fastapi
-  -**2.Crear un entorno virtual**
+  - **2.Crear un entorno virtual**
     - python -m venv venv
     - source venv/bin/activate
-  -**3.Instalar dependencias:** 
+  - **3.Instalar dependencias:** 
     - pip install -r requirements.txt
-  -**4.Lanzar el servidor de la FastAPI:**
+  - **4.Lanzar el servidor de la FastAPI:**
     - uvicorn app.main:app --reload
     - Este quedará disponible en http://localhost:8000
 

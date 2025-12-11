@@ -103,9 +103,11 @@ Para que funcine, es necesario crear una base de datos y configurar la variable 
     - La conexión se realiza mediante SQLAlchemy usando una URL de conexión definida en variables de entorno.
   ### 2. Crear la base de datos 
   -**En el terminal del sistema:**
+  
     - `sudo apt install postgresql postgresql-contrib`
     - `sudo -u postgres psql`
   -**En Python:**
+  
     - `CREATE DATABASE fastapi_db;´`
     - `CREATE USER fastapi_user WITH PASSWORD 'Postgres123'; (en este caso)`
     - `GRANT ALL PRIVILEGES ON DATABASE fastapi_db TO fastapi_user;`
